@@ -6,7 +6,7 @@
     </div>
     <table class="table-auto w-full text-left mt-5">
         <thead>
-            <tr class="bg-gray-800 text-white">
+            <tr class="bg-gray-700 text-white">
                 <th class="px-4 py-2">ID</th>
                 <th class="px-4 py-2">Name</th>
                 <th class="px-4 py-2">Office Head</th>

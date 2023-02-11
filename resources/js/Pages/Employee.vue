@@ -6,7 +6,7 @@
     </div>
     <table class="table-auto w-full text-left mt-5">
         <thead>
-            <tr class="bg-gray-800 text-white">
+            <tr class="bg-gray-700 text-white">
                 <th class="px-4 py-2">ID</th>
                 <th class="px-4 py-2">Last Name</th>
                 <th class="px-4 py-2">First Name</th>
@@ -36,7 +36,7 @@ import Layout from '../Shared/Layout.vue'
 export default {
     layout: Layout,
     props: {
-        employees: Object
+        employees: Array
     }
 }
 
