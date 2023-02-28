@@ -5,9 +5,10 @@
         <span class="text-3xl">Item List</span>
     </div>
 </section>
-<table class="table-auto w-full text-left mt-5">
+<div class="flex justify-center">
+<table class="table-auto w-full text-left mt-3">
         <thead>
-            <tr class="bg-gray-700 text-white">
+            <tr class="bg-violet-700 text-white">
                 <th class="px-4 py-2">ID</th>
                 <th class="px-4 py-2">Office ID</th>
                 <th class="px-4 py-2">Name</th>
@@ -18,7 +19,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr class="bg-gray-100" v-for="item in items" :key="item.id">
+            <tr class="bg-violet-100" v-for="item in items" :key="item.id">
                 <td class="border px-4 py-2">{{ item.id }}</td>
                 <td class="border px-4 py-2">{{ item.office_id }}</td>
                 <td class="border px-4 py-2">{{ item.name }}</td>
@@ -29,6 +30,7 @@
             </tr>
         </tbody>
     </table>
+</div>
 </template>
 
 <script setup>

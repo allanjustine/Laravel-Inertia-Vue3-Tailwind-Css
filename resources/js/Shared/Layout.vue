@@ -1,5 +1,5 @@
 <template>
-<nav class="bg-gray-800 p-2 flex justify-between items-center">
+<nav class="bg-violet-900 p-2 flex justify-between items-center">
   <a href="/" class="text-white font-bold text-xl ml-10">Prelim Project</a>
   <div class="flex">
     <Link href="/" class="text-white hover:bg-gray-700 p-2 mr-3">Home</Link>
